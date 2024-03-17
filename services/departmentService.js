@@ -35,15 +35,7 @@ async function updateDepartmentByID(id, data) {
     }
 }
 
-//  async function updateDepartments(departments) {
-//     try {
-//         const updatedDepartments = await Promise.all(req.body.map(updateDepartment));
-//         return updatedDepartments;
-//     } catch (error) {
-//         console.error('Error updating departments:', error);
-//         res.status(500).send('Internal server error');
-//     }
-// };
+
 const updateDepartments = async function updateDepartments(departments) {
     try {
         const updatedDepartments = [];

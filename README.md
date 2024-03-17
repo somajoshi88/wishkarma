@@ -9,7 +9,7 @@ Payout Management: Upload payout data for employees, calculate total payouts, an
 
 # Technologies Used
 **Node.js**: Backend runtime environment for server-side logic.</p>
-**MongoDB:** NoSQL database for storing employee and department information.</p>
+**MongoDB:** NoSQL database for storing employee and department information.I have used MongoDB Atlas to quickly setup and simplifies database management, improves application scalability and availability, enhances security, and provides a cost-effective solution for hosting MongoDB databases in the cloud</p>
 **Mongoose:** MongoDB object modeling tool for Node.js.</p>
 **Postman:** API development and testing tool for interacting with backend APIs.</p>
 **Git:** Version control system for tracking changes to project files.</p>

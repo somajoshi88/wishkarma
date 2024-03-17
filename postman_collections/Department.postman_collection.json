@@ -1,0 +1,483 @@
+{
+	"info": {
+		"_postman_id": "45d7728d-ff73-4a95-b4a4-de3aa3717e47",
+		"name": "Department",
+		"description": "Backend API to manage Department.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33594492"
+	},
+	"item": [
+		{
+			"name": "Get all Employees with Department and Department Head",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Create Departments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Marketing\",\r\n        \"duties\": \"Advertising, Branding\",\r\n        \"startDate\": \"2024-03-15\"\r\n      \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/departments",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"departments"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Research and Development Department",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/departments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"departments"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Mar 2024 21:12:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot GET /api/departments</pre>\n    </body>\n</html>"
+				},
+				{
+					"name": "Create Marketing Department",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/departments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"departments"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Mar 2024 21:12:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot GET /api/departments</pre>\n    </body>\n</html>"
+				},
+				{
+					"name": "Create Finance Department",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/departments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"departments"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Mar 2024 21:12:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot GET /api/departments</pre>\n    </body>\n</html>"
+				},
+				{
+					"name": "Create Human Resources Department",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/departments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"departments"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Mar 2024 21:12:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot GET /api/departments</pre>\n    </body>\n</html>"
+				},
+				{
+					"name": "Create Transport Department",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/departments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"departments"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Mar 2024 21:12:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot GET /api/departments</pre>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "Update Departmments",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Marketing\",\r\n    \"duties\": \"Advertising, Branding\",\r\n    \"startDate\": \"2023-03-15T00:00:00.000Z\",\r\n    \"deptHead\": null}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/departments",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"departments"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Department",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/departments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"departments"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Mar 2024 21:12:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot GET /api/departments</pre>\n    </body>\n</html>"
+				},
+				{
+					"name": "Update List of Deparments deptHead",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"_id\": \"65f36f3b5b422bf3e6afc7b4\",\r\n        \"name\": \"Human Resources\",\r\n    \t\"duties\":\"Managing employee relations, recruitment, training, benefits administration, HR policy development\",\r\n        \"startDate\": \"2023-03-14T00:00:00.000Z\",\r\n        \"deptHead\": \"65f6ecff78a4f53332cbf404\"\r\n    },\r\n    {\r\n        \"_id\": \"65f6d9b29e2315dd6f301aff\",\r\n        \"name\": \"Marketing\",\r\n        \"duties\": \"Advertising, Branding\",\r\n        \"startDate\": \"2023-03-15T00:00:00.000Z\",\r\n        \"deptHead\": \"65f6ecff78a4f53332cbf409\"\r\n    },\r\n    {\r\n        \"_id\": \"65f6d9f29e2315dd6f301b01\",\r\n        \"name\": \"Finance\",\r\n        \"duties\": \"Budgeting, Financial Analysis\",\r\n        \"startDate\": \"2023-04-15T00:00:00.000Z\",\r\n        \"deptHead\": \"65f6ecff78a4f53332cbf40e\"\r\n    },\r\n    {\r\n        \"_id\": \"65f6dc629e2315dd6f301b09\",\r\n        \"name\": \"Research and Development\",\r\n        \"duties\": \"Innovation, Product Development\",\r\n        \"startDate\": \"2023-05-15T00:00:00.000Z\",\r\n        \"deptHead\": \"65f6ecff78a4f53332cbf412\"\r\n    },\r\n    {\r\n        \"_id\": \"65f6de989e2315dd6f301b0c\",\r\n        \"name\": \"Transport\",\r\n        \"duties\": \"Managing transport\",\r\n        \"startDate\": \"2023-02-14T00:00:00.000Z\",\r\n        \"deptHead\": \"65f6ecff78a4f53332cbf417\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/departments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"departments"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Mar 2024 21:12:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot GET /api/departments</pre>\n    </body>\n</html>"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "wishkarma",
+  "version": "1.0.0",
+  "description": "wishkarma-assingment",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somajoshi88/wishkarma.git"
+  },
+  "author": "Soma Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somajoshi88/wishkarma/issues"
+  },
+  "homepage": "https://github.com/somajoshi88/wishkarma#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "fast-csv": "^5.0.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "mongoose": "^8.2.1",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "stream": "^0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

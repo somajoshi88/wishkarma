@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "6fbec8cc-3033-444c-96b9-bf7e256db05c",
+		"name": "Employee",
+		"description": "Backend API to manage Employee.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33594492"
+	},
+	"item": [
+		{
+			"name": "Get All Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/employees",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get employee by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/employees",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Empoyee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"john.doe@example.com\",\r\n    \"firstName\": \"John\",\r\n    \"lastName\": \"Doe\",\r\n    \"joiningDate\": \"2022-01-01\",\r\n    \"department\": \"Human Resources\",  // Assuming \"HR\" is the name of the department\r\n    \"designation\": \"Manager\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/employees",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create List of Employees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"john.doe@example.com\",\r\n    \"firstName\": \"John\",\r\n    \"lastName\": \"Doe\",\r\n    \"joiningDate\": \"2022-01-01\",\r\n    \"department\": \"Human Resources\",  // Assuming \"HR\" is the name of the department\r\n    \"designation\": \"Manager\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/employees",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Employee with id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"john.doe@example.com\",\r\n    \"firstName\": \"John\",\r\n    \"lastName\": \"Doe\",\r\n    \"joiningDate\": \"2022-01-01\",\r\n    \"department\": \"Human Resources\",  // Assuming \"HR\" is the name of the department\r\n    \"designation\": \"Manager\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/employees/65f3755a27318c54ecb8f2c5",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees",
+						"65f3755a27318c54ecb8f2c5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update an employee using email address",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"designation\": \"HR Analyst\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/employees/john.doe@example.com",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees",
+						"john.doe@example.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get employees total payout for the year 2023",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/employees/total-payout/2023",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees",
+						"total-payout",
+						"2023"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Top employees who received the highest variableAmount for each month",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/employees/total-payout/2023",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees",
+						"total-payout",
+						"2023"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all employees who didn't get any payout for May 2023",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/employees/total-payout/2023",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees",
+						"total-payout",
+						"2023"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all employees who didn't get any payout for June 2023",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/employees/total-payout/2023",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"employees",
+						"total-payout",
+						"2023"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "1d7b0d2e-0cff-484b-92ca-6ad52b5d5002",
+		"name": "Payout",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33594492"
+	},
+	"item": [
+		{
+			"name": "Upload Payout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/C:/Users/Acer/wishkarma_projects/wishkarma/payouts.csv"
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/payouts/upload",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"payouts",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

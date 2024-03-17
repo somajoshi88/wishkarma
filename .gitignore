@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# IDE/editor files
+.vscode/
+
+
+# Ignore package-lock.json file if npm version is below 5.0
+package-lock.json

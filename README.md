@@ -170,4 +170,4 @@ Postman collection can be used to setup DB </p>
 </p>
 
 **Payout:** postman collection **Payout.postman_collection.json** can be used to
-uplaod Payout by uploading payouts.csv using postman "Upload Payout" collection
+uplaod Payout by uploading **payouts.csv** using postman "Upload Payout" collection
